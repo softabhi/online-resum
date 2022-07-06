@@ -1,0 +1,129 @@
+body{
+    background-color: blue;
+}
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    /* grid-row: span 300px; */
+    /* grid-template-columns: 300px 700px; */
+    grid-template-columns: 300px 700px;
+}
+.left-section{
+    background-color: aquamarine;
+    grid-row: span 1;
+    /* grid-column: span 1; */
+    /* width: 300px;
+    height: 700px; */
+}
+.right-section{
+    background-color: azure;
+    /* width: 90%; */
+    grid-column: span 1 / span 2;
+    /* width: 300px;
+    height: 700px; */
+}
+.left-content{
+    padding: 1rem;
+}
+.profile-image{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    width: 60%;
+    border-radius: 30px;
+    border: 5px white solid;
+}
+.name{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+}
+.description{
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem;
+    
+}
+.social-media{
+  display: flex;
+  justify-content: space-around;
+}
+.icon{
+    list-style: none;
+    /* display: flex; */
+}
+.cont{
+    margin: 15px;
+    list-style: none;
+}
+.skills{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0.50rem;
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+   border: 1px solid white;
+   height: 4px;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   font-weight: 700;
+   padding: 0.5rem;
+   letter-spacing: 1px;
+}
+.educational-sect{
+    /* display: inline; */
+    /* display: flex; */
+    /* margin: 1px; */
+    /* padding: 10px; */
+}
+.edu{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* margin-top: 0px; */
+    /* padding: 0px; */
+}
+.detal{
+    /* margin-top: 0px; */
+    margin: 0px;
+    /* padding: 0px; */
+}
+.time{
+    /* display: inline; */
+}
+.uni{
+    /* display: inline-block; */
+    /* display: flex; */
+}
+.h55{
+    /* display: inline; */
+    /* display: flex; */
+    
+}
+.experiece-sect{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
